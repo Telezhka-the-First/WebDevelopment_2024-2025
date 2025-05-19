@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Карта изображения</title>
+  <style>
+    #map-image {
+      border: 5px solid transparent;
+      transition: border 0.3s;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Карта изображений</h2>
+
+<img
+  src="image.webp"
+  alt="Рабочее место"
+  usemap="#workmap"
+  id="map-image"
+  width="800"
+>
+
+<map name="workmap">
+  <area shape="poly" alt="Book" coords="20,450,90,390,130,460,20,460"
+        href="../lab1/about_buttons.html">
+
+  <area shape="rect" coords="470,350,520,380" alt="Cup"
+        href="../lab1/code.html">
+
+  <area shape="circle" coords="370,300,70" alt="Clock"
+        href="../lab1/ex5.html">
+
+  <area shape="poly" alt="Phone" coords="400,440,450,430,500,450,450,460"
+        href="../lab2/task3/index.html">
+
+  <area shape="poly" alt="Notebook" coords="100,270,250,260,290,400,420,410,300,460,150,440"
+        href="../lab4/task1/index.html">
+</map>
+
+</body>
+</html>
