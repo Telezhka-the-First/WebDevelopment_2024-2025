@@ -1,0 +1,53 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}
+    Главная страница
+{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <section style="
+            max-width: 700px;
+            margin: 40px auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c3e50;
+            text-align: center;
+        ">
+            <h1 style="
+                font-size: 2.8rem;
+                margin-bottom: 20px;
+                color: #34495e;
+                border-bottom: 3px solid #2980b9;
+                display: inline-block;
+                padding-bottom: 8px;
+            ">
+                Главная
+            </h1>
+
+            <p style="
+                font-size: 1.2rem;
+                line-height: 1.6;
+                margin-bottom: 30px;
+                max-width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            ">
+                На данном сайте вы сможете читать различные новости. Попробуйте меню навигации слева!
+            </p>
+
+            <img src="{% static 'main/img/news.jpg' %}" alt="Новости" style="
+                max-height: 50vh;
+                max-width: 100%;
+                width: auto;
+                height: auto;
+                border-radius: 12px;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+                display: block;
+                margin: 0 auto;
+                object-fit: contain;
+            ">
+        </section>
+
+    </div>
+{% endblock %}
