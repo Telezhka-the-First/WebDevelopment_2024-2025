@@ -1,0 +1,107 @@
+body {
+    background: #ffdbbd;
+}
+
+aside {
+    margin-top: 60px;
+    float: left;
+    background: #ff7538;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    border-right: 5px solid #4d4d4d;
+    color: #000;
+}
+
+aside img {
+    float: left;
+    width: 80px;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+.btn {
+    --bs-btn-padding-x: 0rem;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    color: #000;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li, aside ul a {
+    text-decoration: none;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #5959ff;
+    transform: scale(1.25);
+}
+
+main .features {
+    float: left;
+    color: #000;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {
+    font-size: 50px;
+}
+
+main .features p {
+    max-width: 400px;
+    margin: 20px auto
+}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+header, footer {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid #333;
+    z-index: 1000;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
